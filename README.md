@@ -1,3 +1,5 @@
+Note: This is a WIP draft for handling redirects. 
+
 # redirects
 List of required redirects to be used for creating redirects on docs.typo3.org. This files have a very simple format (seperated with space !) and can be used to **generate** redirects for any webserver or for example to be used as source file for RewriteMap (Apache). The advantage is: these lists are not dependant on a Webserver (Apache, Nginx) and are not dependant on how the redirects are implemented (e.g. RewriteMap, RewriteRule, redirect, etc.). 
 
