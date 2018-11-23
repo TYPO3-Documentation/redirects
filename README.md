@@ -8,7 +8,7 @@ If there is a bunch of URLs where the redirect can be expressed as sourcepath/* 
 
 If you just have the broken link and no target, you can add to [broken-links.txt](https://github.com/TYPO3-Documentation/redirects/edit/master/broken-links.txt). Please only use this as fallback, if no other choice is possible!
 
-General rules: Use a space between source and target. Start path with /. Don't add domain. Only add URLs on docs.typo3.org. 
+General rules: Use a comma (,) between source and target. Start path with /. Don't add domain. Only add URLs on docs.typo3.org. 
 
 # redirects
 List of required redirects to be used for creating redirects on docs.typo3.org. This files have a very simple format (seperated with space !) and can be used to **generate** redirects for any webserver or for example to be used as source file for RewriteMap (Apache). The advantage is: these lists are not dependant on a Webserver (Apache, Nginx) and are not dependant on how the redirects are implemented (e.g. RewriteMap, RewriteRule, redirect, etc.). 
