@@ -6,7 +6,7 @@ If you need to redirect one URL to another, use [redirects-fix.csv](https://gith
 
 If there is a bunch of URLs where the redirect can be expressed as sourcepath/* >> targetpath/*, use [redirects-var.csv](https://github.com/TYPO3-Documentation/redirects/edit/master/redirects-var.csv).
 
-If you just have the broken link and no target, you can add to broken-links.txt. Please only use this as fallback, if no other choice is possible!
+If you just have the broken link and no target, you can add to [broken-links.txt](https://github.com/TYPO3-Documentation/redirects/edit/master/broken-links.txt). Please only use this as fallback, if no other choice is possible!
 
 General rules: Use a space between source and target. Start path with /. Don't add domain. Only add URLs on docs.typo3.org. 
 
