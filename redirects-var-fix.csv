@@ -1,0 +1,11 @@
+# 2018-11-23#SP use generic rule to top page of each chapter here instead?,
+/typo3cms/SecurityGuide/Introduction/,/typo3cms/CoreApiReference/Security/Introduction/Index.html
+/typo3cms/SecurityGuide/SecurityTeam/,/typo3cms/CoreApiReference/Security/SecurityTeam/Index.html
+/typo3cms/SecurityGuide/GeneralInformation/,/typo3cms/CoreApiReference/Security/GeneralInformation/Index.html
+/typo3cms/SecurityGuide/TypesOfThreats/,/typo3cms/CoreApiReference/latest/Security/TypesOfThreats/Index.html
+/typo3cms/SecurityGuide/GeneralGuidelines/,/typo3cms/CoreApiReference/latest/Security/GeneralGuidelines/Index.html
+/typo3cms/SecurityGuide/GuidelinesAdministrators/,/typo3cms/CoreApiReference/latest/Security/GuidelinesAdministrators/Index.html
+/typo3cms/SecurityGuide/GuidelinesIntegrators/,/typo3cms/CoreApiReference/Security/GuidelinesIntegrators/Index.html
+/typo3cms/SecurityGuide/GuidelinesEditors/,/typo3cms/CoreApiReference/latest/Security/GuidelinesEditors/Index.html
+/typo3cms/SecurityGuide/Backups/,/typo3cms/CoreApiReference/latest/Security/Backups/Index.html
+/typo3cms/SecurityGuide/HackedSite/,/typo3cms/CoreApiReference/latest/Security/HackedSite/Index.html

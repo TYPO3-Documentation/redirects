@@ -4,11 +4,19 @@ Note: This is a WIP draft for handling redirects.
 
 * use [redirects-fix.csv](https://github.com/TYPO3-Documentation/redirects/edit/master/redirects-fix.csv) if you need to redirect one URL to another, 
 * use [redirects-var.csv](https://github.com/TYPO3-Documentation/redirects/edit/master/redirects-var.csv) if there is a bunch of URLs where the redirect can be expressed as sourcepath/* >> targetpath/*, 
-* use [redirects-var-final.csv](https://github.com/TYPO3-Documentation/redirects/edit/master/redirects-var.csv) if sourcepath/* should be redirected to finalurl
+* use [redirects-var-fix.csv](https://github.com/TYPO3-Documentation/redirects/edit/master/redirects-var-fix.csv) if sourcepath/* should be redirected to finalurl
 
 If you just have the broken link and no target, you can add to [broken-links.txt](https://github.com/TYPO3-Documentation/redirects/edit/master/broken-links.txt). Please only use this as fallback, if no other choice is possible!
 
-General rules: Use a comma (,) between source and target. Start path with /. Don't add domain. Only add URLs on docs.typo3.org. 
+General rules: 
+
+* Use a comma (,) between source and target. 
+* Start path with /. 
+* Don't add domain. 
+* Only add existing paths for docs.typo3.org. 
+
+In some cases, it might make more sense to use generic rules instead. However, drawback is that these will
+be webserver specific, requires knowledge in regex to maintain, and may be cryptic and error prone. 
 
 # redirects
 List of required redirects to be used for creating redirects on docs.typo3.org. This files have a very simple format (seperated with comma (,)) and can be used to **generate** redirects for any webserver or for example to be used as source file for RewriteMap (Apache). The advantage is: these lists are not dependant on a Webserver (Apache, Nginx) and are not dependant on how the redirects are implemented (e.g. RewriteMap, RewriteRule, redirect, etc.). 
@@ -17,7 +25,7 @@ Files:
 
 * [redirects-fix.csv](https://raw.githubusercontent.com/TYPO3-Documentation/redirects/master/redirects-fix.csv)
 * [redirects-var.csv](https://github.com/TYPO3-Documentation/redirects/blob/master/redirects-var.csv)
-* [redirects-var-final.csv](https://github.com/TYPO3-Documentation/redirects/blob/master/redirects-var-final.csv)
+* [redirects-var-fix.csv](https://github.com/TYPO3-Documentation/redirects/blob/master/redirects-var-fix.csv)
 * [incoming-broken-links.txt](https://github.com/TYPO3-Documentation/redirects/blob/master/broken-links.txt)
 
 ## redirects-fix.csv
