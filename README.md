@@ -70,7 +70,7 @@ Clone git repo somewhere on t3docs.typo3.org server
 manual / automatic update of redirects
 
 1. git pull changes form this repo to local repo
-2. Do sanity checks on .csv files (script)
+2. Do sanity checks on .csv files (script): Does file conform to general regex rule: ```^/typo3cms/.*\.html /typo3cms.*\.html$```
 3. If ok, cp scripts to final destination on server
 
 RewriteMap does not need to be changed, it uses updated lists of redirects. Webserver reload is required.
