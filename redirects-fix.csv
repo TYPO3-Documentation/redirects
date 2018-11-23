@@ -1,4 +1,10 @@
 /typo3cms/ContributionWorkflowGuide/Forge/ReportingABug.html,/typo3cms/ContributionWorkflowGuide/ReportingAnIssue/Index.html
+/typo3cms/SecurityGuide/GuidelinesIntegrators/Index.html,/typo3cms/CoreApiReference/Security/GuidelinesIntegrators/Index.html
+/typo3cms/SecurityGuide/GuidelinesIntegrators/Extensions/Index.html,/typo3cms/CoreApiReference/Security/GuidelinesIntegrators/Index.html#typo3-extensions
+/typo3cms/SecurityGuide/GuidelinesIntegrators/GlobalTypo3Options/Index.html,/typo3cms/CoreApiReference/Security/GuidelinesIntegrators/Index.html#global-typo3-configuration-options
+/typo3cms/SecurityGuide/GuidelinesIntegrators/ReportsAndLogs/Index.html,/typo3cms/CoreApiReference/Security/GuidelinesIntegrators/Index.html#reports-and-logs
+/typo3cms/SecurityGuide/GuidelinesIntegrators/SecurityWarningsAfterLogin/Index.html,/typo3cms/CoreApiReference/Security/GuidelinesIntegrators/Index.html#security-related-warnings-after-login
+/typo3cms/SecurityGuide/GuidelinesIntegrators/InstallTool/Index.html,/typo3cms/CoreApiReference/Security/GuidelinesIntegrators/Index.html#install-tool
 /typo3cms/TyposcriptReference/Functions/Imgresource/Index.html,/typo3cms/TyposcriptReference/Functions/Imgresource.html
 /typo3cms/TyposcriptReference/Functions/Cache/Index.html,/typo3cms/TyposcriptReference/Functions/Cache.html
 /typo3cms/TyposcriptReference/Functions/Stdwrap/Index.html,/typo3cms/TyposcriptReference/Functions/Stdwrap.html
