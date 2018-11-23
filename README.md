@@ -4,7 +4,7 @@ Note: This is a WIP draft for handling redirects.
 
 If you need to redirect one URL to another, use [redirects-fix.csv](https://github.com/TYPO3-Documentation/redirects/edit/master/redirects-fix.csv). Use a space between source and target. 
 
-If there is a bunch of URLs where the redirect can be expressed as sourcepath/* >> targetpath/*, use [redirects-fix.csv](https://github.com/TYPO3-Documentation/redirects/edit/master/redirects-fix.csv).
+If there is a bunch of URLs where the redirect can be expressed as sourcepath/* >> targetpath/*, use [redirects-var.csv](https://github.com/TYPO3-Documentation/redirects/edit/master/redirects-var.csv).
 
 General rules: Start path with /. Don't add domain. Only add URLs on docs.typo3.org. 
 
